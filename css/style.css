@@ -79,7 +79,7 @@ body {
 }
 
 .button__man {  
-    background: url(/img/Man.svg) no-repeat 16px center;
+    background: url(../img/Man.svg) no-repeat 16px center;
 }
 
 .button__bin {
@@ -96,7 +96,7 @@ body {
 }
 
 .button__cart {  
-    background: url(/img/Trash.svg) no-repeat 16px center;
+    background: url(../img/Trash.svg) no-repeat 16px center;
 }
 
 .button--secondary {
@@ -104,7 +104,7 @@ body {
 }
 
 .promo__block {
-    background: #FFF1B8 url(/img/Promo.png) no-repeat right center;
+    background: #FFF1B8 url(../img/Promo.png) no-repeat right center;
     padding: 68px 0;
     padding-left: 70px;
     border-radius: 10px;
@@ -154,7 +154,7 @@ body {
     max-width: 306px;
     width: 100%;
     padding: 5px 12px 5px 32px;
-    background: url(/img/Lupa.svg) no-repeat 10px 6px;
+    background: url(../img/Lupa.svg) no-repeat 10px 6px;
 }
 
 
@@ -228,7 +228,7 @@ body {
     position: absolute;
     top: 5px;
     left: -22px;
-    background: url(/img/Reit.svg) no-repeat center / cover;
+    background: url(../img/Reit.svg) no-repeat center / cover;
 }
 
 .card__price {
