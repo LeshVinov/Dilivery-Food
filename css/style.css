@@ -329,6 +329,10 @@ body {
     line-height: 32px;
 }
 
+.social-link .inst {
+    margin-left: 0;
+}
+
 /*модальное окно*/
 .modal {
     display: none;
@@ -520,6 +524,15 @@ body {
     .section__restourants {
        padding-top: 10px;
     }
+    .restour__search {
+        justify-content: center;
+    }
+    .restour__search h2{
+        display: none;
+    }
+    .restour__search input {
+        max-width: 75%;
+    }
     .card {
         max-width: 75%;
     }
@@ -560,5 +573,20 @@ body {
     .section__header {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+    .card {
+        max-width: 90%;
+    }
+    .restour__search {
+        margin-bottom: 20px;
+    }
+    .navigation__footer {
+        display: none;
+    }
+    .section__restourants {
+        padding-bottom: 20px;
+    }
+    .card__price {
+        display: none;
     }
 }
