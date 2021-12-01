@@ -586,7 +586,7 @@ body {
     .section__restourants {
         padding-bottom: 20px;
     }
-    .card__price {
+    .tanuki_price {
         display: none;
     }
 }
