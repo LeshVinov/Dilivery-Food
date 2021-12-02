@@ -164,8 +164,10 @@
     <!-- /.section__footer -->
     <div class="modal">
         <div class="modal-block">
-            <h2 class="modal-title">Корзина</h2>
-            <button class="button-closed"></button>
+            <div class="cart-and-close">
+                <h2 class="modal-title">Корзина</h2>
+                <button class="button-closed"></button>
+            </div>
             <div class="modal-body">
                 <div class="cart-string">
                     <h3 class="name-dish">Ролл угорь стандарт</h3>
@@ -235,9 +237,11 @@
             </div>
             <!-- /.body -->
             <div class="modal-footer">
-                <strong class="fullprice">1250 ₽</strong>
+                <div class="fullprice_container">
+                    <strong class="fullprice">1250 ₽</strong>
+                </div>
                 <div class="buttons-modal--footer">
-                    <button class="button button--primary">Оформить заказ</button>
+                    <button class="button button--primary modal_primary_button">Оформить заказ</button>
                     <button id="cancelButton" class="button button--secondary button-cancel">Отмена</button>
                 </div>
                 <!-- /.buttons-modal--footer -->

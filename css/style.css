@@ -357,11 +357,14 @@ body {
     
 }
 
+.cart-and-close {
+    margin-bottom: 45px;
+}
+
 .modal-title {
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
-    margin-bottom: 45px;
 }
 
 .button-closed {
@@ -599,7 +602,7 @@ body {
         display: none;
     }
     .modal-block {
-        top: 40%;
+        top: 35%;
         padding: 40px;
     }
     .price-dish {
@@ -607,6 +610,44 @@ body {
     }
     .count-block {
         max-width: 20%;
+    }
+    .modal-footer {
+        display: block;
+    }
+    .fullprice_container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .fullprice {
+        padding: 5px 5px;
+    }
+    .buttons-modal--footer {
+        display: flex;
+        justify-content: center;
+    }
+    .modal_primary_button {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .modal-block {
+        padding: 20px;
+    }
+    .button-closed {
+        margin-bottom: 10px;
+    }
+    .cart-and-close {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .button-closed {
+        position: relative;
+        top: 5px;
+        right: 0;
     }
 }
 
@@ -623,9 +664,29 @@ body {
     }
     .modal-block {
         top: 40%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .modal-title {
+        margin-bottom: 5px;
+    }
+    .cart-string {
+        padding: 5px 0 ;
+    }
+    .fullprice {
+        width: 60px;
+        font-size: 15px;
+        padding: 5px 5px;
+        margin-bottom: 10px;
+    }
+    .modal-footer {
+        display: block;
+    }
+    .buttons-modal--footer {
+        display: flex;
     }
     .name-dish {
-        margin-right: 10%;
+        margin-right: 5%;
         max-width: 40%;
     }
     .price-dish {
