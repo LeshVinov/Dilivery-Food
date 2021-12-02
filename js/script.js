@@ -9,9 +9,7 @@ const fullPrice =  document.querySelector('.fullprice');
 let countMinButton;
 let countPlusButton;
 
-const getFullPrice = function() {
-    fullPrice.textContent = 
-}
+
 
 const toggleModal = function() {
     modal.classList.toggle('open');
@@ -28,7 +26,7 @@ buttonClosed.addEventListener('click', toggleModal);
 cancelButton.addEventListener('click', toggleModal);
 modal.addEventListener('click', removeOfModal);
 
-for (let i = 0; i <countBlocks.Length; i++{
+for (let i = 0; i <countBlocks.Length; i++){
     countMinButton = countBlock.querySelector('.count-min');
     countPlusButton = countBlock.querySelector('.count-min');
     let countSpan = countBlock.querySelector('.count');
@@ -49,7 +47,7 @@ for (let i = 0; i <countBlocks.Length; i++{
 
     countMinButton.addEventListener('click', counterMinus);
     countPlusButton.addEventListener('click', counterPlus);
-})
+}
 
 countMinButton.forEach(function(countMinButton) {
     countMinButton.addEventListener('click', counterMinus);
@@ -65,4 +63,3 @@ console.log (typeof +countSpan.textContent)
 // console.log(buttonCart);
 // console.log(buttonClosed);
 //  console.log(cancelButton);\
-
