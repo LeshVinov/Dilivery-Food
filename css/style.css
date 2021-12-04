@@ -50,7 +50,9 @@ body {
     border: 1px solid #D9D9D9;
     border-radius: 2px;
     outline: none;
+    transition: 0.2s ease all;
 }
+
 
 .section__header {
     margin-top: 44px;
@@ -96,8 +98,23 @@ body {
     border: 1px solid #1890FF
 }
 
+.button__man {
+    transition: all .3s;
+}
+
+.button__man:hover {
+    background: #0000CD url(../img/Man.svg) no-repeat 16px center;
+    border: none;
+}
+
 .button__cart {  
     background: url(../img/Trash.svg) no-repeat 16px center;
+    transition: all .3s;
+}
+
+.button__cart:hover {
+    background: #C0C0C0 url(../img/Trash.svg) no-repeat 16px center;
+    border: none;
 }
 
 .button--secondary {
@@ -177,6 +194,11 @@ body {
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
     border-radius: 7px;
     margin-bottom: 30px;
+    transition: all .3s;
+}
+
+.card:hover {
+	transform: translateY(-30px);
 }
 
 .card__main {
@@ -271,6 +293,15 @@ body {
 }
 
 .nav-item {
+    transition: all .3s;
+}
+
+.nav-item:hover {
+    color: #af4035;
+    filter: drop-shadow(0px 0px 10px black);
+}
+
+.nav-item {
     line-height: 21px;
     color: #595959;
     margin-right: 15px;
@@ -286,6 +317,13 @@ body {
     margin-left: 25px;
 }
 
+.social-link {
+    transition: all .3s;
+}
+
+.social-link:hover {
+    transform: scale(1.5);
+}
 
 
 
